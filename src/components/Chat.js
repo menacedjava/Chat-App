@@ -27,7 +27,7 @@ const Chat = () => {
 
     return (
         <div>
-            {/*<h2>Chat</h2>*/}
+            <h2>Chat</h2>
             <input
                 type="text"
                 placeholder="Enter username"
