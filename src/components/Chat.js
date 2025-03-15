@@ -29,11 +29,11 @@ const Chat = () => {
         <div>
             {/*<h2>Chat</h2>*/}
             {/*<input*/}
-            {/*    type="text"*/}
-            {/*    placeholder="Enter username"*/}
-            {/*    value={username}*/}
-            {/*    onChange={(e) => setUsername(e.target.value)}*/}
-            {/*/>*/}
+                type="text"
+                placeholder="Enter username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+            />
             {/*<div style={{ border: "1px solid black", height: "300px", overflowY: "scroll" }}>*/}
             {/*    {messages.map((msg, index) => (*/}
             {/*        <p key={index}>*/}
