@@ -46,7 +46,7 @@ const Chat = () => {
                 placeholder="Enter message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-            {/*/>*/}
+            />
             <button onClick={sendMessage}>Send</button>
         </div>
     );
