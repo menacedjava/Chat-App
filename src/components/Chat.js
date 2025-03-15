@@ -34,19 +34,19 @@ const Chat = () => {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
             />
-            {/*<div style={{ border: "1px solid black", height: "300px", overflowY: "scroll" }}>*/}
-            {/*    {messages.map((msg, index) => (*/}
-            {/*        <p key={index}>*/}
-            {/*            <strong>{msg.username}:</strong> {msg.content}*/}
-            {/*        </p>*/}
-            {/*    ))}*/}
-            {/*</div>*/}
+            <div style={{ border: "1px solid black", height: "300px", overflowY: "scroll" }}>
+                {messages.map((msg, index) => (
+                    <p key={index}>
+                        <strong>{msg.username}:</strong> {msg.content}
+                    </p>
+                ))}
+            </div>
             <input
                 type="text"
                 placeholder="Enter message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-            />
+            {/*/>*/}
             <button onClick={sendMessage}>Send</button>
         </div>
     );
