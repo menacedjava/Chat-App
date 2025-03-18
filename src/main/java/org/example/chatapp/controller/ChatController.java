@@ -31,5 +31,11 @@ public class ChatController {
                 Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!Chat server is running!
                 """;
     }
+    @GetMapping("/Suxrob")
+    public String SuxrobEndpoint() {
+        return """
+                What's Up Suxrob Aka
+                """;
+    }
 
 }
